@@ -1,0 +1,152 @@
+h1 {
+  font-size:100%;
+  
+  font-family:graphik;
+}
+body { 
+  background-image:url('macbook.jpg');
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-position:center; 
+  background-size:cover;
+  background-opacity:0.5;
+  ;
+}
+.footer a{
+  float: center;
+  padding: 12px;
+  color: #660066;
+  text-decoration: none;
+  font-size: 17px;
+  width: 10%; 
+  text-align: center;
+}
+button {
+  background-color: #660066;
+  border:none;
+  color: white;
+  padding: 8px 45px;
+  text-align: center;
+  text-decoration: verdana;
+  font-size: 15px;
+  margin: 8px 15px;
+  cursor: pointer;
+  border-radius:7px;
+}
+
+button:hover {
+	opacity:0.8;
+	background-color:#660066;
+}
+
+img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+
+.modal {
+  display: none; 
+  position: absolute; 
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%;
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.8); 
+  padding-top: 0px;
+}
+
+
+
+
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 10% auto; 
+  border: 1px solid #660066;
+  width: 45%;
+  padding:12px;  
+}
+
+.modal-content1 {
+  background-color: #fefefe;
+  margin: 3% 5% 15% auto; 
+  border: 1px solid #660066;
+  width: 20%;
+  padding:25px;
+  
+}
+
+}
+
+.close {
+  position: absolute;
+  right: 14px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+ 
+  cursor: pointer;
+  
+}
+input.effect1[type=text],input[type=placeholder]{
+	width: 50%;
+	padding:20px 20px;
+	margin: 8px 0;
+	display: inline-border;
+	border: 1px solid #660066;
+	box-sizing: border-box;
+}
+
+
+.animate {
+  -webkit-animation: animatezoom 1s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+
+.container {
+  padding:10px;
+}
+
+
+
+
+
+
+
+
+
